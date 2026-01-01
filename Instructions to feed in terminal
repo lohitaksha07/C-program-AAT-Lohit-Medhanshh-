@@ -1,3 +1,7 @@
-cd "c:\Users\Hp\Downloads\COding"
-gcc maze.c -o maze_runner
-.\maze_runner.exe
+cd /c/Users/Hp/Downloads/sdl2_maze
+gcc maze.c -o maze.exe $(pkg-config --cflags --libs sdl2)
+Both in mingw64
+
+.\maze.exe
+cd /c/Users/Hp/Downloads/sdl2_maze
+this in vs code
